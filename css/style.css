@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    font-family: 'Oswald',sans-serif;
+}
+html{
+    background-color: rgb(127, 40, 40);
+    scroll-behavior: smooth;
+}
+body > section{
+    position: relative;
+    min-width: 320px;
+    max-width: 2560px;
+    margin: auto;
+
+    
+}
+
+a{
+    text-decoration: none;
+}
+button{color:white;position: relative;}
+button:hover{cursor:pointer;}
+
+.border-img::after{
+    
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 20px solid;
+    border-image: url("../assets/imgs/Thumbnail_Border_SM.avif") 40; 
+
+    pointer-events: none;
+    z-index: 1;
+}
+
+.border-img:hover::after{
+    filter:brightness(200%);
+}
+.active{
+    color:#ef972f;
+}
+
+.divider-container{
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    margin:0px;
+    
+}
+.top{
+    top:-36px;
+}
+.bottom{
+    bottom:-11.5px;
+}
+.divider-bottom,.divider-top,.diamond{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.divider-top{
+    background-image: url('../assets/imgs/Border_1.avif');
+    height: 72px;
+}
+.divider-bottom{
+    background-image: url('../assets/imgs/Border_2.avif');
+    height: 23px;
+}
+
+.diamond-top{
+    top:-35px;
+}
+
+.diamond{
+    background-image: url('../assets/imgs/Border_3.avif');
+    height: 70px;
+}
+
+
+
+
+
+
+/* .border-img:hover{
+    color:#ef972f;
+} */
+ /*
+ 
+ 
+#f17b33 - brown
+
+#ffc045 - yellow
+ */
+
+/* rgb(71, 31, 31); primary color*/
+/*rgba(180, 56, 56, .5); secondary*/
+/* // <weight>: Use a value from 200 to 700
+// <uniquifier>: Use a unique and descriptive class name */
+/* 
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+.bs-bg{display:block;}
+.ss-bg{
+    display:none;
+}
+@media(max-width:1024px){
+    .ss-bg{
+        display:block;
+
+    }
+    .bs-bg{
+        display:none;
+    }
+ 
+}

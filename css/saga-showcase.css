@@ -1,0 +1,93 @@
+.saga-showcase{
+
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    padding:5rem 0px;
+
+
+
+    background-image: url("../assets/imgs/Pane-dirtLight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color:white;
+}
+
+
+
+.saga-showcase > h2{
+    font-size:2rem;
+    color:#f17b33;
+}
+.saga-showcase > h1{
+    font-size:4rem;
+    color:#ffc045;
+}
+.saga-showcase > h3{
+    font-size:2.5rem;
+    color:#f17b33;
+}
+
+.expansions{
+ 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap:2rem;
+
+    margin-top:3rem;
+
+    
+}
+
+.expansion{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.expansion > h3{
+    font-size:1.2rem;
+}
+
+.total-war,.dominion,.uprising,.wod,.legion,.tdt{
+    background-image: url('../assets/imgs/logos/png-clipart-wow-high-rez-icon-world-of-warcraft-logo-removebg-preview.png');
+    width: 170px;
+    height: 170px;
+}
+.expansion-logo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+@media(max-width:600px){
+    .saga-showcase > h2{
+        font-size:1.5rem;
+    }
+    .saga-showcase > h1{
+        font-size:3rem;
+    }
+    .saga-showcase > h3{
+        font-size:2rem;
+    }
+}
+
+@media(max-width:350px){
+    
+    .saga-showcase > h1{
+        font-size:2.5rem;
+    }
+   
+
+}

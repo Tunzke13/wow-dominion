@@ -1,0 +1,61 @@
+.commendations{
+    display:flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color:white;
+    letter-spacing: .2rem;
+ 
+    padding:3rem 0px;
+
+    background-image: url('../assets/imgs/Cloud_Desktop.avif');
+    background-size: cover;
+    background-position: center;
+   
+
+    
+}
+.commendations > h1{
+    color:#ffc045;
+    margin:1rem 0px .5rem 0px;
+    font-size:2.5rem;
+}
+
+.commends{
+    margin-top:.5rem;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+}
+.commends h3{
+    font-size:1.5rem;
+}
+.commends h4{
+    font-size:1rem;
+}
+.commends > div{
+    
+    gap:1rem;
+    flex:1;
+    padding:1.5rem;
+    
+}
+
+
+
+@media(max-width:768px){
+
+    .commends{
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:425px){
+
+}

@@ -1,0 +1,98 @@
+.features{
+    background-image: url('../assets/imgs/logos/31278891d0fc3bbb27df.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:7rem 0px;
+
+    color:white;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.panels{
+    
+    text-align: right;
+
+}
+.panels > h2{
+    color:#ef972f;
+    font-size:3rem;
+    margin-bottom:5rem;
+}
+.panels,.panel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.panel{
+    align-items: flex-end;
+    gap:2rem;
+    flex-direction: row;
+    
+    width: 100%;
+
+    padding:2rem 0px;
+}
+.panel > .info{
+    width: 30%;
+
+}
+.panel > .info > .feature-title{
+    color:#f17b33;
+    margin-bottom:1rem;
+}
+.skirmish-bg{
+    background-image: url('../assets/imgs/world-of-warcraft-classic-world-map.avif');
+}
+.pve-bg{
+        background-image: url('../assets/imgs/world-of-warcraft-chronicle-volume-4-faction-dungeon-and-raid-completion.avif');
+}
+.warfronts-bg{
+     background-image: url('../assets/imgs/horde_vs_alliance.avif');
+}
+
+.feature-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 250px;
+
+    position: relative;
+
+ 
+}
+
+@media(max-width:1024px){
+    .panels{
+   
+        text-align: center;
+    }
+    .panel{
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .panel > .info{
+        width: 70%;
+    }
+ 
+}
+@media(max-width:550px){
+    .feature-img{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media(max-width:375px){
+    .feature-img{
+        width: 275px;
+        height: 175px;
+    }
+}

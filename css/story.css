@@ -1,0 +1,113 @@
+.story{
+    background-image: url('../assets/imgs/logos/31278891d0fc3bbb27df.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:10rem 0px;
+
+    color:white;
+
+    text-align: center;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.current-expansion > .expansion-logo{
+    background-image: url('../assets/imgs/logos/png-clipart-wow-high-rez-icon-world-of-warcraft-logo-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+}
+
+.current-expansion{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.current-expansion h1{
+    text-transform: capitalize;
+    font-size:3rem;
+}
+
+.info{
+    margin-top:3rem;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.info > .subheading{
+    font-size:1.2rem;
+}
+.info > .heading{
+    margin-top:1rem;
+    font-size:3rem;
+}
+.info > .story-txt{
+    margin:0px;
+    font-size:1.4rem;
+    text-transform: none;
+}
+.cinematic-container{
+    margin-top:5rem;
+    overflow-x: hidden;
+}
+
+@media(min-width:1024px){
+    .cinematic-container > iframe{
+        width:914px;
+        height:514px;
+    }
+}
+
+@media(max-width:1023px){
+    .cinematic-container > iframe{
+        width:714px;
+        height:414px;
+    }
+}
+
+@media(max-width:768px){
+    .cinematic-container > iframe{
+        width:614px;
+        height:314px;
+    }
+
+    .info{
+        width:80%;
+    }
+
+
+    .info > .subheading{
+        font-size:1rem;
+    }
+    .info > .heading{
+        font-size:2rem;
+    }
+    .inf > .text{
+        font-size: 1.2rem;
+    }
+ 
+
+}
+@media(max-width:656px){
+    .cinematic-container > iframe{
+        width:414px;
+        height:214px;
+    }
+}
+
+@media(max-width:450px){
+    .cinematic-container > iframe{
+        width:314px;
+        height:154px;
+    }
+}
+
